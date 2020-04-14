@@ -1,0 +1,421 @@
+@font-face
+{
+	font-family: JosefinSans;
+	src: url('../font/JosefinSans-Regular-7.ttf');
+}
+
+html{
+	font-size: 37.5px;
+}
+
+body{
+	font-family: 'JosefinSans';
+	color: #fff;
+	min-height: 1500px;
+}
+
+.firstPage{
+	width: 100%;
+	min-height: 730px;
+	background: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/hero-bg.jpg');	
+    background-repeat: no-repeat;
+    background-size: 100% 730px;
+    background-origin: border-box;	
+    box-sizing: border-box;
+}
+
+.firstPage:after{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	min-height: 730px;
+	background-color: #108afd;
+	opacity: 0.9;
+}
+
+.header{
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #fff;
+	z-index: 10;
+}
+
+.navbar{
+	margin:5px 0;	
+}
+
+.navbar-brand{
+	width: 2.666667rem;
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/logo.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.login{
+	margin: 5px 0;
+	background-color: rgb(18, 212, 103);
+	padding: 0.2rem 0.5rem 0.2rem;
+}
+
+li>a{
+	color: #fff;
+}
+
+.intro{
+	width: 100%;
+	margin-top: 2.133333rem;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+}
+
+.intro-title{
+	margin-bottom: 0.666667rem;
+	font-weight: 700;
+	font-size: 1.066667rem;
+}
+
+.intro-detail{
+	line-height: 0.8rem;
+}
+
+.action{
+	width: 100%;
+	margin-top: 0.533333rem;	
+	position: relative;
+	z-index: 10;	
+}
+
+.action button:nth-child(1){
+	background-color: rgb(18, 212, 103);
+	padding: 0.3rem 0.7rem 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+.action button:nth-child(2){
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 0.3rem 0.7rem 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+.white{
+	position: relative;
+	bottom: -7.5rem;
+	z-index: 5;
+	width:100%;
+	min-height: 2.666667rem	;
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/hero-shape-1.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.computer{
+	position: relative;
+	bottom: 5rem;
+	z-index: 10;
+	width:100%;
+	height: 14.133333rem;
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/hero-macbook-2.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+.secondPage{
+	position: relative;	
+	top: -5.3333rem;
+	background-image: linear-gradient(to top, rgba(247, 251, 254, 1), rgba(255, 255, 255, 1));
+	height: auto;
+	color: black;
+	text-align: center;
+	padding-bottom: 3.333333rem;
+	box-sizing: border-box;
+}
+
+.core-title{
+	margin: 7px 0;
+	color: #a2a2a2;
+	font-size: 0.32rem;
+}
+
+.core-subTitle{
+	margin: 7px 0;
+	font-size: 0.9rem;
+}
+
+.core-detail{
+	margin: 7px 0;
+	color: #7b7b93;
+}
+
+.iconCard{
+	margin-top: 40px;
+	position: relative;
+	top: 0;
+}
+
+.iconFont>.iconfont{
+	padding: 9px;	
+	line-height: 60px;
+	border-radius: 40px;
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+.row .col-sm-3:nth-child(1) .iconfont{
+	background-color: #ff4858;
+	box-shadow: -5px 0 0 rgb(255,72,88,.5);
+}
+
+.row .col-sm-3:nth-child(2) .iconfont{
+	background-color: #4976fe;
+	box-shadow: -5px 0 0 rgb(73,118,254,.5);
+}
+
+.row .col-sm-3:nth-child(3) .iconfont{
+	background-color: #fea24a;
+	box-shadow: -5px 0 0 rgb(254,162,74,.5);
+}
+
+.row .col-sm-3:nth-child(4) .iconfont{
+	background-color: #ff48fd;
+	box-shadow: -5px 0 0 rgb(255,72,253,.5);
+}
+
+.iconTitle{
+	margin: 7px 0;
+	color: #444;
+	font-size: 0.6rem;
+}
+
+.iconDetail{
+	margin: 7px 0;
+	color: #7b7b93;
+	font-size: 0.35rem;
+}
+
+.thirdPage{
+	position: relative;	
+	top: -5.3333rem;
+	background-color: #fff;
+	height: 100%;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 2.666667rem;	
+}
+
+.adver{
+	position: relative;
+}
+
+.adverTitle{
+	margin: 7px 0;
+	color: #444;
+	font-size: 0.9rem;
+}
+
+.adverDetail{
+	margin: 7px 0;
+	color: #7b7b93;
+}
+
+.adverAction button:nth-child(1){
+	background-color: rgb(18, 212, 103);
+	padding: 0.3rem 0.7rem 0.3rem;
+	margin-right: 0.6rem;
+	margin-bottom: 0.3rem;
+	color: #fff;
+}
+
+.adverAction button:nth-child(2	){
+	background-color: rgb(16, 138, 253)	;
+	padding: 0.3rem 0.7rem 0.3rem;
+	margin-right: 0.6rem;
+	margin-bottom: 0.3rem;
+	color: #fff;
+}
+
+.adver .img1{
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/app-screen-1.png');
+	width: 100%;
+	height: 13.333333rem;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    position: relative;
+    bottom: 0px;
+    z-index: 3;
+}
+
+.adver .img2{
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/app-screen-2.png');
+	width: 50%;
+	height: 9.333333rem;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+	z-index: 2;
+}
+
+.adver .img3{
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/app-screen-3.png');
+	width: 50%;
+	height: 9.333333rem;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    position: absolute;
+    bottom: 0;
+    right: 9%;
+    z-index: 2;
+}
+
+.forthPage{	
+	position: relative;
+	top: -5.3333rem;
+	background-color: rgba(204,238,255, 0.15);
+	height: auto;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 3.5rem;
+}
+
+.strength{
+	text-align: center;
+}
+
+.strengthTitle{
+	margin: 7px 0;
+	color: #a2a2a2;
+	font-size: 0.32rem;
+}
+	
+.strengthSubtitle{
+	margin: 7px 0;
+	font-size: 0.5rem;
+}
+
+.strengthDetail{
+	margin: 7px 0;
+	color: #a2a2a2;	
+	margin-bottom: 1.6rem;	
+}
+
+.strengthCard{
+	background-color: #fff;
+	padding: 30px 20px;
+	margin-bottom: 1.333333rem;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06)
+}
+
+.strengthCard .iconfont{
+	font-size: 1.733333rem;
+	color: #108afd;
+}
+
+.strengthCard .cardTitle{
+	text-align: left;
+	font-size: 0.8rem;
+	margin-bottom: 0.533333rem;
+	color: #444;
+}
+
+.strengthCard .cardDetail{
+	text-align: left;	
+	color: #a2a2a2;
+}
+
+.deco{
+	width: 100%;
+	height: 350px;
+	background-image: url('http://v.bootstrapmb.com/2020/1/hiswk7280/assets/images/home-1-shape.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    background-origin: border-box;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.fifthPage{	
+	position: relative;
+	top: -5.3333rem;
+	background-color: #fff;
+	height: auto;
+	color: black;
+	text-align: left;
+	box-sizing: border-box;
+	padding-top: 1.066667rem;
+	padding-bottom: 1.333333rem;
+}
+
+.feedbackTitle{
+	margin: 7px 0;
+	color: #a2a2a2;
+	font-size: 0.32rem;
+}
+
+.feedbackSubtitle{
+	margin: 7px 0;
+	font-size: 0.9rem;
+	color: #444;
+}
+
+.feedbackDetail{
+	margin: 7px 0;
+	color: #7b7b93;	
+	margin-bottom: 1.6rem;	
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
+.commentItem{
+	border: 1px solid #eee;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.itemImage{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+
+.itemName{
+	color: #444;
+	font-size: 0.426667rem;
+}
+
+.itemPoste{
+	font-size: 0.32rem;
+	color: #7b7b93;
+}
+
+.itemDetail{
+	margin-top: 0.8rem;
+	font-size: 0.37rem;
+	color: #7b7b93;
+}

@@ -1,0 +1,65 @@
+{
+  "id": "1752860",
+  "name": "we'b'si'te",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2032234",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "2539134",
+      "name": "魔法棒",
+      "font_class": "magicwand",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2584611",
+      "name": "客户",
+      "font_class": "kehu",
+      "unicode": "e79e",
+      "unicode_decimal": 59294
+    },
+    {
+      "icon_id": "6860883",
+      "name": "锁 (3)",
+      "font_class": "suo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8111386",
+      "name": "可用性统计",
+      "font_class": "keyong",
+      "unicode": "e7bc",
+      "unicode_decimal": 59324
+    },
+    {
+      "icon_id": "8489252",
+      "name": "仪表盘",
+      "font_class": "yibiaopan",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "9484603",
+      "name": "全球",
+      "font_class": "quanqiu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "13405492",
+      "name": "数据 图表 饼图-2",
+      "font_class": "shujutubiaobingtu-1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
